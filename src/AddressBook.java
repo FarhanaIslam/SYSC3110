@@ -17,7 +17,10 @@ public class AddressBook {
 		
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		BuddyInfo bi = new BuddyInfo();
+		AddressBook ab = new AddressBook();
+		ab.addBuddy(bi);
+		//ab.removeBuddy(0);
 	}
 
 }
