@@ -4,6 +4,13 @@ public class BuddyInfo {
 	private String address;
 	private String ph_number;
 
+	public BuddyInfo(String name, String address, String number)
+	{
+		this.name = name;
+		this.address = address;
+		ph_number = number; 
+	}
+	
 	public String getName() {
 		return name;
 	}
@@ -28,13 +35,13 @@ public class BuddyInfo {
 		this.ph_number = ph_number;
 	}
 
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		BuddyInfo bi = new BuddyInfo();
 		bi.setName("Homer");
-		System.out.println("Hello " + bi.getName());
+			System.out.println("Hello " + bi.getName());
 		
-	}
+	}*/
 
 }
